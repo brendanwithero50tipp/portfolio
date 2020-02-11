@@ -1,0 +1,159 @@
+/* * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+} */
+
+/* body Styling */
+body {
+  margin: 0;
+  font-family: "Merriweather", serif;
+  text-align: center;
+  color: #66bfbf;
+}
+
+h1 {
+  font-family: "Sacramento", cursive;
+  font-size: 5.625rem;
+  /* margin-top: 0; */
+  margin: 50px auto 0 auto;
+  /* color: #66bfbf; */
+  line-height: 2;
+}
+
+h2 {
+  /* color: #66bfbf; */
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  /* color: #66bfbf; */
+  color: #333;
+  line-height: 2;
+}
+
+hr {
+  border: dotted #eaf6f6 6px;
+  border-bottom: none;
+  width: 5%;
+  margin: 100px auto;
+}
+/* Top Section */
+.top-container {
+  background: #ecfcff;
+  position: relative;
+  padding-top: 100px;
+}
+
+.top-container span {
+  text-decoration: underline;
+}
+
+/* Moving the clouds + mountain */
+.top-cloud {
+  position: absolute;
+  top: 50px;
+  right: 300px;
+}
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+/* .top-container img {
+  position: absolute;
+  bottom: 0;
+} */
+
+/* Middle container */
+.middle-container {
+  padding: 100px 0;
+}
+.profile .profile-img {
+  width: 15%;
+}
+
+.profile .intro {
+  width: 30%;
+  margin: auto;
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.skill-row .code-img {
+  width: 25%;
+  border-radius: 50%;
+  float: left;
+  margin-right: 30px;
+}
+
+.skill-row .chilli-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+/* Contact Me */
+.contact-me .contact-msg {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.myButton {
+  box-shadow: 0px 0px 0px 2px #9fb4f2;
+  background: linear-gradient(to bottom, #66bfbf 5%, #66bfbf 100%);
+  background-color: #7892c2;
+  border-radius: 10px;
+  border: 1px solid #66bfbf;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 19px;
+  padding: 12px 37px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #283966;
+}
+.myButton:hover {
+  background: linear-gradient(to bottom, #11999e 5%, #11999e 100%);
+  background-color: #476e9e;
+}
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+
+/* Bottom container */
+.bottom-container {
+  background: #66bfbf;
+  padding: 50px 0 20px;
+}
+
+.bottom-container .footer-link {
+  text-decoration: none;
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
+  margin: 10px 20px;
+}
+
+.bottom-container .footer-link:hover {
+  color: #fff;
+}
+
+.bottom-container .footer-txt {
+  color: #fff;
+  font-size: 0.75rem;
+}
